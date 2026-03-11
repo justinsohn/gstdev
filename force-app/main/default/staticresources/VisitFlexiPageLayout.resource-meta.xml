@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <cacheControl>Public</cacheControl>
+    <contentType>application/json</contentType>
+    <description>FlexiPage metadata for the Visit Desktop Page layout. Used by the mostRecentVisit LWC to dynamically render the visit layout. Re-retrieve from the Tooling API and redeploy when the Visit page layout changes in App Builder.</description>
+</StaticResource>
