@@ -3,6 +3,7 @@
     <fullName>GST_Visit_Compact_Layout</fullName>
     <fields>AccountId</fields>
     <fields>Visit_Date__c</fields>
-    <fields>VisitorId</fields>
+    <fields>Visitor__c</fields>
+    <fields>OwnerId</fields>
     <label>GST Visit Compact Layout</label>
 </CompactLayout>

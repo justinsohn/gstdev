@@ -172,12 +172,4 @@
         <name>Postman</name>
         <type>ExternalClientApplication</type>
     </appMenuItems>
-    <appMenuItems>
-        <name>District_Sales_Ops</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>District_Fixed_Ops</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
 </AppMenu>
