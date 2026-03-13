@@ -1,4 +1,4 @@
-public with sharing class VisitSharingResyncService {
+public without sharing class VisitSharingResyncService {
 
     public static void resyncByAccountIds(Set<Id> accountIds) {
         if (accountIds == null || accountIds.isEmpty()) {

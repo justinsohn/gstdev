@@ -1,4 +1,4 @@
-public with sharing class VisitSharingService {
+public without sharing class VisitSharingService {
 
     public static void syncVisitSharing(List<Visit> newVisits, Map<Id, Visit> oldMap) {
         if (newVisits == null || newVisits.isEmpty()) {
@@ -32,7 +32,6 @@ public with sharing class VisitSharingService {
             return;
         }
 
-        // Replace District__c with your real field/API path
         Map<Id, Account> accountsById = new Map<Id, Account>([
             SELECT Id, District__c
             FROM Account
@@ -42,7 +41,7 @@ public with sharing class VisitSharingService {
         Set<String> districtNames = new Set<String>();
         for (Account acct : accountsById.values()) {
             if (String.isNotBlank(acct.District__c)) {
-                districtNames.add('District ' + acct.District__c);
+                districtNames.add(getDistrictGroupName(acct.District__c));
             }
         }
 
@@ -92,7 +91,7 @@ public with sharing class VisitSharingService {
                 continue;
             }
 
-            Group districtGroup = groupsByName.get(acct.District__c);
+            Group districtGroup = groupsByName.get(getDistrictGroupName(acct.District__c));
             if (districtGroup == null) {
                 continue;
             }
@@ -109,5 +108,12 @@ public with sharing class VisitSharingService {
         if (!sharesToInsert.isEmpty()) {
             Database.insert(sharesToInsert, false);
         }
+    }
+
+    private static String getDistrictGroupName(String districtValue) {
+        if (String.isBlank(districtValue)) {
+            return null;
+        }
+        return 'District ' + districtValue.trim();
     }
 }
