@@ -85,6 +85,7 @@ public with sharing class MostRecentVisitController {
         @AuraEnabled public Boolean hasVisit;
         @AuraEnabled public String visitId;
         @AuraEnabled public Date visitDate;
+        @AuraEnabled public String visitorName;
 
         public VisitLayoutResult() {
             this.tabs = new List<TabDefinition>();
@@ -132,6 +133,11 @@ public with sharing class MostRecentVisitController {
             if (visit != null) {
                 result.visitId = (String) visit.get('Id');
                 result.visitDate = (Date) visit.get('visit_date__c');
+                // Get visitor name from the Visitor__c custom lookup relationship
+                SObject visitorRef = visit.getSObject('Visitor__r');
+                if (visitorRef != null) {
+                    result.visitorName = (String) visitorRef.get('Name');
+                }
             }
 
             // Populate field values and evaluate visibility rules
@@ -491,29 +497,13 @@ public with sharing class MostRecentVisitController {
     }
 
     /**
-     * Filters tabs based on custom permission assignments.
-     * Tabs listed in TAB_PERMISSION_MAP require the user to have the corresponding
-     * custom permission. Tabs not in the map are visible to all users.
-     * System Administrators always see all tabs regardless of permission assignments.
+     * Returns all tabs — all users can see every tab in this LWC regardless of
+     * profile or permission set. Tab-level permission filtering was removed per
+     * requirements; the custom permissions and permission sets remain in the org
+     * for potential use elsewhere.
      */
     private static List<TabDefinition> filterTabsByPermission(List<TabDefinition> tabs) {
-        // System Administrators bypass tab permission filtering entirely
-        Profile currentProfile = [SELECT Name FROM Profile WHERE Id = :UserInfo.getProfileId() LIMIT 1];
-        if (currentProfile.Name == 'System Administrator') {
-            return tabs;
-        }
-
-        List<TabDefinition> visibleTabs = new List<TabDefinition>();
-        for (TabDefinition tab : tabs) {
-            String requiredPermission = TAB_PERMISSION_MAP.get(tab.title);
-            if (requiredPermission == null) {
-                // No permission required — visible to all
-                visibleTabs.add(tab);
-            } else if (FeatureManagement.checkPermission(requiredPermission)) {
-                visibleTabs.add(tab);
-            }
-        }
-        return visibleTabs;
+        return tabs;
     }
 
     /**
@@ -579,7 +569,8 @@ public with sharing class MostRecentVisitController {
         List<String> fieldList = new List<String>(accessibleFields);
         String fieldString = String.join(fieldList, ', ');
 
-        String soql = 'SELECT ' + fieldString
+        // Include the Visitor relationship name for the card header display
+        String soql = 'SELECT ' + fieldString + ', Visitor__r.Name'
                      + ' FROM Visit'
                      + ' WHERE AccountId = :accountId'
                      + ' ORDER BY Visit_Date__c DESC NULLS LAST'

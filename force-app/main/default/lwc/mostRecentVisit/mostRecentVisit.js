@@ -17,6 +17,7 @@ export default class MostRecentVisit extends LightningElement {
     hasVisit = false;
     visitId;
     visitDate;
+    visitorName;
 
     /** Loading and error states */
     isLoading = true;
@@ -33,6 +34,7 @@ export default class MostRecentVisit extends LightningElement {
             this.hasVisit = data.hasVisit;
             this.visitId = data.visitId;
             this.visitDate = data.visitDate;
+            this.visitorName = data.visitorName;
             this.errorMessage = undefined;
 
             // Default to the first tab if available
@@ -142,17 +144,20 @@ export default class MostRecentVisit extends LightningElement {
         this.activeTab = event.target.value;
     }
 
-    /** Computed: Card title that includes the visit date when available */
+    /** Computed: Card title that includes the visit date and visitor name */
     get cardTitle() {
         if (this.visitDate) {
-            // Format the date for display in the card title
             const date = new Date(this.visitDate + "T00:00:00");
             const formatted = date.toLocaleDateString("en-US", {
                 month: "numeric",
                 day: "numeric",
                 year: "numeric"
             });
-            return `Most Recent Visit — ${formatted}`;
+            let title = `Most Recent Visit — ${formatted}`;
+            if (this.visitorName) {
+                title += ` by ${this.visitorName}`;
+            }
+            return title;
         }
         return "Most Recent Visit";
     }

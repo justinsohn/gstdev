@@ -113,11 +113,11 @@ private class MostRecentVisitControllerTest {
     }
 
     /**
-     * Verifies that System Administrators can see all tabs regardless of
-     * custom permission assignments (bypass logic).
+     * Verifies that all four tabs are returned for any user, since tab
+     * permission filtering was removed and all tabs are visible to everyone.
      */
     @IsTest
-    static void testGetVisitWithLayout_SystemAdminSeesAllTabs() {
+    static void testGetVisitWithLayout_AllTabsVisibleToEveryone() {
         Account testAccount = [SELECT Id FROM Account LIMIT 1];
         Schema.Location testLocation = [SELECT Id FROM Location LIMIT 1];
 
@@ -134,8 +134,7 @@ private class MostRecentVisitControllerTest {
             MostRecentVisitController.getVisitWithLayout(testAccount.Id);
         Test.stopTest();
 
-        // System Admin should see all 4 tabs (Sales Ops, Fixed Ops, Other, Admin)
-        // even without explicit custom permission assignments
+        // All users should see all 4 tabs (Sales Ops, Fixed Ops, Other, Admin)
         Set<String> tabTitles = new Set<String>();
         for (MostRecentVisitController.TabDefinition tab : result.tabs) {
             tabTitles.add(tab.title);
