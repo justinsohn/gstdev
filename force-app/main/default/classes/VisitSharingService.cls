@@ -59,24 +59,15 @@ public without sharing class VisitSharingService {
             groupsByName.put(g.Name, g);
         }
 
-        Set<Id> managedGroupIds = new Set<Id>();
-        for (Group g : groupsByName.values()) {
-            managedGroupIds.add(g.Id);
-        }
-
-        // Remove only our managed district-group manual shares.
-        if (!managedGroupIds.isEmpty()) {
-            List<VisitShare> sharesToDelete = [
-                SELECT Id
-                FROM VisitShare
-                WHERE ParentId IN :visitIdsToProcess
-                AND RowCause = 'Manual'
-                AND UserOrGroupId IN :managedGroupIds
-            ];
-
-            if (!sharesToDelete.isEmpty()) {
-                delete sharesToDelete;
-            }
+        // Delete all existing manual shares for visits being reprocessed before inserting new ones.
+        List<VisitShare> sharesToDelete = [
+            SELECT Id
+            FROM VisitShare
+            WHERE ParentId IN :visitIdsToProcess
+            AND RowCause = 'Manual'
+        ];
+        if (!sharesToDelete.isEmpty()) {
+            delete sharesToDelete;
         }
 
         List<VisitShare> sharesToInsert = new List<VisitShare>();

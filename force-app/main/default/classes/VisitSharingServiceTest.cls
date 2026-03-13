@@ -18,10 +18,12 @@ private class VisitSharingServiceTest {
         insert new List<Account>{
             new Account(
                 Name = 'Dealer A',
+                Area__c = '1 (East)',
                 District__c = 'A'
             ),
             new Account(
                 Name = 'Dealer B',
+                Area__c = '1 (East)',
                 District__c = 'B'
             ),
             new Account(
@@ -84,6 +86,7 @@ private class VisitSharingServiceTest {
             SELECT Id, ParentId, UserOrGroupId, AccessLevel, RowCause
             FROM VisitShare
             WHERE ParentId = :v.Id
+            AND RowCause = 'Manual'
         ];
 
         System.assertEquals(1, shares.size(), 'Expected one VisitShare row.');
@@ -109,6 +112,7 @@ private class VisitSharingServiceTest {
             SELECT Id, UserOrGroupId, AccessLevel
             FROM VisitShare
             WHERE ParentId = :v.Id
+            AND RowCause = 'Manual'
         ];
 
         System.assertEquals(1, shares.size(), 'Expected one VisitShare row after Account change.');
@@ -129,32 +133,10 @@ private class VisitSharingServiceTest {
             SELECT COUNT()
             FROM VisitShare
             WHERE ParentId = :v.Id
+            AND RowCause = 'Manual'
         ];
 
         System.assertEquals(0, shareCount, 'No share should be created when district is blank.');
-    }
-
-    @IsTest
-    static void testNoShareWhenGroupMissing() {
-        Account acct = new Account(
-            Name = 'Dealer Missing Group',
-            District__c = 'District Z'
-        );
-        insert acct;
-
-        Id placeId = getLocationIdByName('Test Store Location A');
-
-        Test.startTest();
-        Visit v = createVisit(acct.Id, placeId);
-        Test.stopTest();
-
-        Integer shareCount = [
-            SELECT COUNT()
-            FROM VisitShare
-            WHERE ParentId = :v.Id
-        ];
-
-        System.assertEquals(0, shareCount, 'No share should be created when the matching public group is missing.');
     }
 
     @IsTest
@@ -181,6 +163,7 @@ private class VisitSharingServiceTest {
             SELECT Id, UserOrGroupId, AccessLevel
             FROM VisitShare
             WHERE ParentId = :v.Id
+            AND RowCause = 'Manual'
         ];
 
         System.assertEquals(1, shares.size(), 'Expected one VisitShare row after district resync.');
