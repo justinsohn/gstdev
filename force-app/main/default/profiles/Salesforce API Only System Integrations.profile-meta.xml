@@ -173,6 +173,18 @@
         <apexClass>MostRecentVisitControllerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>VisitSharingResyncService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>VisitSharingService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>VisitSharingServiceTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -6691,6 +6703,10 @@
     <flowAccesses>
         <enabled>false</enabled>
         <flow>CAN_Sales_Op_Visit_Screen</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Screen_Create_Task_from_Visit</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>

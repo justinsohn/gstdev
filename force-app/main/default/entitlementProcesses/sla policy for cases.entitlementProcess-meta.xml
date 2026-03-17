@@ -19,7 +19,7 @@
         <minutesToComplete>30</minutesToComplete>
         <timeTriggers>
             <actions>
-                <name>SendSlaViolationEmailAlert</name>
+                <name>Case.SendSlaViolationEmailAlert</name>
                 <type>Alert</type>
             </actions>
             <timeLength>0</timeLength>
@@ -83,11 +83,11 @@
         <minutesToComplete>240</minutesToComplete>
         <timeTriggers>
             <actions>
-                <name>SendSlaViolationEmailAlert</name>
+                <name>Case.SendSlaViolationEmailAlert</name>
                 <type>Alert</type>
             </actions>
             <actions>
-                <name>ChangeStatusToEscalated</name>
+                <name>Case.ChangeStatusToEscalated</name>
                 <type>FieldUpdate</type>
             </actions>
             <timeLength>0</timeLength>
@@ -105,11 +105,11 @@
         <minutesToComplete>720</minutesToComplete>
         <timeTriggers>
             <actions>
-                <name>SendSlaViolationEmailAlert</name>
+                <name>Case.SendSlaViolationEmailAlert</name>
                 <type>Alert</type>
             </actions>
             <actions>
-                <name>ChangeStatusToEscalated</name>
+                <name>Case.ChangeStatusToEscalated</name>
                 <type>FieldUpdate</type>
             </actions>
             <timeLength>0</timeLength>
@@ -127,11 +127,11 @@
         <minutesToComplete>2880</minutesToComplete>
         <timeTriggers>
             <actions>
-                <name>SendSlaViolationEmailAlert</name>
+                <name>Case.SendSlaViolationEmailAlert</name>
                 <type>Alert</type>
             </actions>
             <actions>
-                <name>ChangeStatusToEscalated</name>
+                <name>Case.ChangeStatusToEscalated</name>
                 <type>FieldUpdate</type>
             </actions>
             <timeLength>0</timeLength>

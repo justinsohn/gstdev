@@ -51,6 +51,16 @@
         <name>BusinessProcessTypeDefinition</name>
     </types>
     <types>
+        <members>primaryModel</members>
+        <name>CampaignInfluenceModel</name>
+    </types>
+    <types>
+        <members>DataCloudCompanyMatch</members>
+        <members>DataCloudGeoLocation</members>
+        <members>DataCloudLeadAppend</members>
+        <name>CleanDataService</name>
+    </types>
+    <types>
         <members>Internal Community</members>
         <name>Community</name>
     </types>
@@ -58,9 +68,18 @@
         <members>Account.Account_Compact_Layout</members>
         <members>Lead.Leads_Custom_Compact_Layout</members>
         <members>Opportunity.New_Awesome_Companct_Layout</members>
+        <members>Task.GST_Task_Compact_Layout</members>
         <members>User.User_Layout</members>
         <members>Visit.GST_Visit_Compact_Layout</members>
         <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>CPQIntegrationUserApp</members>
+        <name>ConnectedApp</name>
+    </types>
+    <types>
+        <members>Tableau</members>
+        <name>CspTrustedSite</name>
     </types>
     <types>
         <members>Director</members>
@@ -240,6 +259,10 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
         <members>Account</members>
         <members>AccountContactRelation</members>
         <members>AccountContactRole</members>
@@ -326,6 +349,7 @@
         <members>CostBook</members>
         <members>CostBookEntry</members>
         <members>DecisionTblFileImportData</members>
+        <members>DevopsActivityLog</members>
         <members>DevopsEnvironment</members>
         <members>DevopsRequestInfo</members>
         <members>DocumentChecklistItem</members>
@@ -559,6 +583,41 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>Fixed_Ops_Visit_Tab</members>
+        <members>Sales_Ops_Visit_Tab</members>
+        <name>CustomPermission</name>
+    </types>
+    <types>
+        <members>Activities/</members>
+        <members>Activities/NonA360EacDashboard</members>
+        <members>CRM_180925_HVS_Sample_Dashboard_Folder/</members>
+        <members>CRM_180925_HVS_Sample_Dashboard_Folder/CRM_180925_HVS_Sample_Dashboard</members>
+        <members>GSTDashboards/</members>
+        <members>GSTDashboards/CousbBktwlJnCWgCcuClUwnQkbDoho</members>
+        <members>GSTDashboards/CousbBktwlJnCWgCcuClUwnQkbDoho1</members>
+        <members>GSTDashboards/HyXvaVVVZCTMjnZoppriyLPZEJyIIt</members>
+        <members>GSTDashboards/TgLLlZmnlmcanGzcaexGqyGuiUXeyK</members>
+        <members>GSTDashboards/TgLLlZmnlmcanGzcaexGqyGuiUXeyK1</members>
+        <members>GSTDashboards/TgLLlZmnlmcanGzcaexGqyGuiUXeyK2</members>
+        <members>GSTDashboards/XCLYjAKDFBSRcvOzhRngXAETdSGOYn</members>
+        <members>GSTDashboards/iUYRckJDiIpIrTaFIXrAiNHCherWUU</members>
+        <members>GSTDashboards/xfcrBZrlUmJfdszRldWvrCEcloLcyE</members>
+        <members>Getting_Started_Pilot_Dashboards/</members>
+        <members>Getting_Started_Pilot_Dashboards/Best_Practices_Dashboard61111</members>
+        <members>Getting_Started_Pilot_Dashboards/Best_Practices_Dashboard61211</members>
+        <members>Getting_Started_Pilot_Dashboards/Best_Practices_Dashboard6131</members>
+        <members>Getting_Started_Pilot_Dashboards/Best_Practices_Dashboard6132</members>
+        <members>Sales_and_Marketing_Dashboards/</members>
+        <members>Sales_and_Marketing_Dashboards/AdoptionDashboard</members>
+        <members>Sales_and_Marketing_Dashboards/Best_Practice_Leads_Dashboard</members>
+        <members>Sales_and_Marketing_Dashboards/Best_Practices_Dashboard6</members>
+        <members>Service_Dashboards/</members>
+        <members>Service_Dashboards/Agent_Supervisor_Overview</members>
+        <members>Service_Dashboards/Service_Exec_Overview</members>
+        <members>Service_Dashboards/Service_KPIs</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
         <members>SalesTools</members>
         <members>SharedDocuments</members>
         <name>Document</name>
@@ -576,6 +635,55 @@
         <name>EmailServicesFunction</name>
     </types>
     <types>
+        <members>CRM_180925_Email_Templates_From_Salesforce</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Confirmation_Set_Meeting_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Day_30_Follow_Up_Onboarding_Outreach_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Day_60_Follow_Up_Onboarding_Outreach_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Day_90_Follow_Up_Onboarding_Outreach_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Event_Content_Event_Folow_Up_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Fifth_Email_Month_5_Nuture_Existing_Customer_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Fifth_Follow_Up_Lost_Opportunity_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Final_Email_Account_Transition_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Final_Email_Renewal_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Final_Follow_Up_Interested_Prospects_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Final_Follow_Up_New_Prospects_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/First_Email_Account_Transition_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/First_Email_Month_1_Nuture_Existing_Customer_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/First_Email_Renewal_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/First_Touch_Intro_Interested_Prospects_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/First_Touch_Introduction_New_Prospects_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/First_Touch_Lost_Opportunity_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/First_Touch_Onboarding_Outreach_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Follow_Up_Set_Meeting_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Fourth_Email_Month_4_Nuture_Existing_Customer_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Fourth_Email_Renewal_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Fourth_Follow_Up_Lost_Opportunity_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Insert_Availability_Set_Meeting_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/More_Info_Event_Folow_Up_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Next_Event_Event_Folow_Up_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Reengage_Prospects_Fifth_FollowUp_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Reengage_Prospects_First_Touch_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Reengage_Prospects_Fourth_FollowUp_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Reengage_Prospects_Second_FollowUp_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Reengage_Prospects_Third_FollowUp_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Second_Email_Account_Transition_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Second_Email_Month_2_Nuture_Existing_Customer_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Second_Email_Renewal_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Second_Follow_Up_Interested_Prospects_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Second_Follow_Up_Lost_Opportunity_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Second_Follow_Up_New_Prospects_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Second_Follow_Up_Onboarding_Outreach_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Sixth_Email_Month_6_Nuture_Existing_Customer_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Thank_You_Event_Folow_Up_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Third_Email_Account_Transition_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Third_Email_Month_3_Nuture_Existing_Customer_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Third_Email_Renewal_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Third_Follow_Up_Interested_Prospects_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Third_Follow_Up_Lost_Opportunity_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Third_Follow_Up_New_Prospects_OOTB_1</members>
+        <members>CRM_180925_Email_Templates_From_Salesforce/Third_Follow_Up_Onboarding_Outreach_OOTB_1</members>
+        <members>SlaEmailTemplateFolder</members>
+        <members>SlaEmailTemplateFolder/SlaEmailAlertActionEmailTemplate</members>
         <members>unfiled$public</members>
         <members>unfiled$public/ContactFollowUpSAMPLE</members>
         <members>unfiled$public/LeadsNewassignmentnotificationSAMPLE</members>
@@ -623,6 +731,20 @@
         <name>EntitlementProcess</name>
     </types>
     <types>
+        <members>Case</members>
+        <name>EscalationRules</name>
+    </types>
+    <types>
+        <members>ISE_IDVAudit</members>
+        <members>PartyRelationshipGroupAuditLog</members>
+        <name>ExplainabilityActionDefinition</name>
+    </types>
+    <types>
+        <members>ISE_IDVAudit</members>
+        <members>PartyRelationshipGroupAuditLog</members>
+        <name>ExplainabilityActionVersion</name>
+    </types>
+    <types>
         <members>Postman</members>
         <name>ExternalClientApplication</name>
     </types>
@@ -635,12 +757,62 @@
         <name>ExtlClntAppGlobalOauthSettings</name>
     </types>
     <types>
+        <members>Postman_oauthPlcy</members>
+        <name>ExtlClntAppOauthConfigurablePolicies</name>
+    </types>
+    <types>
         <members>Postman_oauth</members>
         <name>ExtlClntAppOauthSettings</name>
     </types>
     <types>
+        <members>Account_Record_Page_Three_Column</members>
+        <members>Contact_Record_Page_Three_Column</members>
+        <members>DataGovernanceConsole_UtilityBar</members>
+        <members>Director_Home</members>
+        <members>Director_UtilityBar</members>
+        <members>District_Fixed_Ops</members>
+        <members>District_Home</members>
+        <members>District_Sales_Ops</members>
+        <members>District_UtilityBar</members>
+        <members>Executive_Home</members>
+        <members>Executive_UtilityBar</members>
+        <members>ExpressionSetConsole_UtilityBar</members>
+        <members>FlowsApp_UtilityBar</members>
+        <members>Getting_Started_Home</members>
+        <members>HVSConsole_UtilityBar</members>
+        <members>IndustriesEcm_UtilityBar</members>
+        <members>Integration_UtilityBar</members>
+        <members>Lead_Generation_UtilityBar</members>
+        <members>Lead_Record_Page_Three_Column</members>
+        <members>LightningBolt_UtilityBar</members>
+        <members>LightningSalesConsole_UtilityBar</members>
+        <members>LightningSales_UtilityBar</members>
+        <members>LightningService_UtilityBar</members>
+        <members>Opportunity_Record_Page_Three_Column</members>
+        <members>Relationship_Management_UtilityBar</members>
+        <members>SalesCloudMobile_UtilityBar</members>
+        <members>Sales_Leadership_UtilityBar</members>
+        <members>Sales_Operations_UtilityBar</members>
+        <members>Sales_UtilityBar</members>
+        <members>Visit_Desktop_Page</members>
+        <members>Visit_Mobile_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
         <members>CAN_Fixed_Ops_Visit_Screen</members>
         <members>CAN_Sales_Op_Visit_Screen</members>
+        <members>Screen_Create_Task_from_Visit</members>
+        <members>Task_Before_Create</members>
+        <members>Visit_After_Create_Update</members>
+        <members>Visit_Before_Create</members>
+        <members>Visited_Party_After_Create_Update</members>
+        <members>Visited_Party_Before_Create</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>CAN_Fixed_Ops_Visit_Screen</members>
+        <members>CAN_Sales_Op_Visit_Screen</members>
+        <members>Screen_Create_Task_from_Visit</members>
         <members>Task_Before_Create</members>
         <members>Visit_After_Create_Update</members>
         <members>Visit_Before_Create</members>
@@ -649,8 +821,199 @@
         <name>FlowDefinition</name>
     </types>
     <types>
+        <members>FSD_Opportunity673967289854097</members>
+        <name>ForecastingSourceDefinition</name>
+    </types>
+    <types>
+        <members>LineItemQuantityProductDate</members>
+        <members>LineItemQuantityScheduleDate</members>
+        <members>LineItemRevenueProductDate</members>
+        <members>LineItemRevenueScheduleDate</members>
+        <members>OpportunityLineItemQuantity</members>
+        <members>OpportunityLineItemRevenue</members>
+        <members>OpportunityQuantity</members>
+        <members>OpportunityQuantityProductDate</members>
+        <members>OpportunityQuantityScheduleDate</members>
+        <members>OpportunityRevenue</members>
+        <members>OpportunityRevenueProductDate</members>
+        <members>OpportunityRevenueScheduleDate</members>
+        <members>Opportunity_Amount</members>
+        <name>ForecastingType</name>
+    </types>
+    <types>
         <members>FTS_Opportunity_Amount7sy5e0000004CdfAAE946363564445777</members>
         <name>ForecastingTypeSource</name>
+    </types>
+    <types>
+        <members>CRM_Provider</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>District_A</members>
+        <members>District_B</members>
+        <members>District_C</members>
+        <members>District_D</members>
+        <members>District_E</members>
+        <members>District_F</members>
+        <members>District_G</members>
+        <members>District_H</members>
+        <members>District_I</members>
+        <members>District_J</members>
+        <members>District_K</members>
+        <members>Sandbox_Access</members>
+        <name>Group</name>
+    </types>
+    <types>
+        <members>Dashboard Home Page Default</members>
+        <name>HomePageLayout</name>
+    </types>
+    <types>
+        <members>IframeWhiteListUrlSettings</members>
+        <name>IframeWhiteListUrlSettings</name>
+    </types>
+    <types>
+        <members>OIQ</members>
+        <members>sf_chttr_apps</members>
+        <name>InstalledPackage</name>
+    </types>
+    <types>
+        <members>Account-Account Layout</members>
+        <members>AccountContactRelation-Account Contact Relationship Layout</members>
+        <members>ActionPlan-Action Plan Layout</members>
+        <members>ActionPlanItemDependency-Action Plan Item Dependency Layout</members>
+        <members>ActionPlanTemplate-Action Plan Template Layout</members>
+        <members>ActionPlanTemplateItem-Action Plan Template Item Layout</members>
+        <members>ActionPlanTemplateItemValue-Action Plan Template Item Value Layout</members>
+        <members>ActionPlanTemplateVersion-Action Plan Template Version Layout</members>
+        <members>ActionPlnTmplItmDependency-Action Plan Template Item Dependency Layout</members>
+        <members>AppointmentInvitation-Appointment Invitation Layout</members>
+        <members>AssessmentIndicatorDefinition-Assessment Indicator Definition Layout</members>
+        <members>AssessmentTask-Assessment Task Layout</members>
+        <members>AssessmentTaskContentDocument-Assessment Task Content Document Layout</members>
+        <members>AssessmentTaskDefinition-Assessment Task Definition Layout</members>
+        <members>Asset-Asset Layout</members>
+        <members>AssetAccountParticipant-Asset Account Participant Layout</members>
+        <members>AssetContactParticipant-Asset Contact Participant Layout</members>
+        <members>AssetRelationship-Asset Relationship Layout</members>
+        <members>AssignedResource-Assigned Resource Layout</members>
+        <members>BusinessMilestone-Business Milestone Layout</members>
+        <members>CRM__c-CRM Layout</members>
+        <members>CalcMatrixColumnRange-Decision Matrix Column Range Layout</members>
+        <members>CalcProcStepRelationship-Expression Set Step Relationship Layout</members>
+        <members>CalculationMatrix-Decision Matrix Layout</members>
+        <members>CalculationMatrixColumn-Decision Matrix Column Layout</members>
+        <members>CalculationMatrixRow-Decision Matrix Row Layout</members>
+        <members>CalculationMatrixVersion-Decision Matrix Version Layout</members>
+        <members>CalculationProcedure-Calculation Procedure Layout</members>
+        <members>CalculationProcedureStep-Calculation Procedure Step Layout</members>
+        <members>CalculationProcedureVariable-Calculation Procedure Variable Layout</members>
+        <members>CalculationProcedureVersion-Calculation Procedure Version Layout</members>
+        <members>Campaign-Campaign Layout</members>
+        <members>CampaignInfluenceModel-Campaign Influence Model Layout</members>
+        <members>CampaignMember-Campaign Member Page Layout</members>
+        <members>Case-Case Layout</members>
+        <members>CaseClose-Close Case Layout</members>
+        <members>CaseInteraction-Case Feed Layout</members>
+        <members>CaseMilestone-Case Milestone Layout</members>
+        <members>CaseParticipant-Case Participant Layout</members>
+        <members>CollaborationGroup-Group Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>ContentVersion-Content Version</members>
+        <members>Contract-Contract Layout</members>
+        <members>ContractLineItem-Contract Line Item Layout</members>
+        <members>CspTrustedSite-Trusted URL Layout</members>
+        <members>DocumentChecklistItem-Document Checklist Item Layout</members>
+        <members>DocumentType-Document Type Layout</members>
+        <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+        <members>EmailMessage-Email Message Layout</members>
+        <members>EngagementChannelType-Engagement Channel Type Layout</members>
+        <members>EngagementInteraction-Engagement Interaction Layout</members>
+        <members>EngagementTopic-Engagement Topic Layout</members>
+        <members>Entitlement-Entitlement Layout</members>
+        <members>EntityMilestone-Object Milestone Layout</members>
+        <members>Event-Event Layout</members>
+        <members>ExpressionSet-Expression Set Layout</members>
+        <members>ExpressionSetVersion-Expression Set Version Layout</members>
+        <members>FeedItem-Feed Item Layout</members>
+        <members>FlowInterview-Flow Interview Layout</members>
+        <members>FlowRecord-Flow Layout</members>
+        <members>GenericVisitTask-Generic Visit Task Layout</members>
+        <members>GenericVisitTaskContext-Generic Visit Task Context Layout</members>
+        <members>Global-Global Layout</members>
+        <members>GnrcVstKeyPerformanceInd-Generic Visit Key Performance Indicator Layout</members>
+        <members>GnrcVstTaskContextRelation-Generic Visit Task Context Relation Layout</members>
+        <members>Idea-Idea Layout</members>
+        <members>Lead-Lead Layout</members>
+        <members>Location-Location Layout</members>
+        <members>Macro-Macro Layout</members>
+        <members>OperatingHours-Operating Hours Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>OpportunityLineItem-Opportunity Product Layout</members>
+        <members>Order-Order Layout</members>
+        <members>OrderItem-Order Product Layout</members>
+        <members>PersonLifeEvent-Person Life Event Layout</members>
+        <members>Pricebook2-Price Book Layout</members>
+        <members>PricebookEntry-Price Book Entry Layout</members>
+        <members>ProcessException-Process Exception Layout</members>
+        <members>Product2-Product Layout</members>
+        <members>ProfileSkill-Skill Layout</members>
+        <members>ProfileSkillEndorsement-Endorsement Layout</members>
+        <members>ProfileSkillUser-Skill User Layout</members>
+        <members>QuickText-Quick Text Layout</members>
+        <members>Quote-Quote Layout</members>
+        <members>QuoteLineItem-Quote Line Item Layout</members>
+        <members>ReceivedDocument-Received Document Layout</members>
+        <members>ReceivedDocumentType-Received Document Type Layout</members>
+        <members>RecurrenceSchedule-Recurrence Schedule Layout</members>
+        <members>ResourceAbsence-Resource Absence Layout</members>
+        <members>ResourcePreference-Resource Preference Layout</members>
+        <members>Scorecard-Scorecard Layout</members>
+        <members>ScorecardAssociation-Scorecard Association Layout</members>
+        <members>ScorecardMetric-Scorecard Metric Layout</members>
+        <members>ServiceAppointment-Service Appointment Layout</members>
+        <members>ServiceContract-Service Contract Layout</members>
+        <members>ServiceResource-Service Resource Layout</members>
+        <members>ServiceResourceSkill-Service Resource Skill Layout</members>
+        <members>ServiceTerritory-Service Territory Layout</members>
+        <members>ServiceTerritoryMember-Service Territory Member Layout</members>
+        <members>Shift-Shift Layout</members>
+        <members>ShiftWorkTopic-Shift Work Topic Layout</members>
+        <members>SkillRequirement-Skill Requirement Layout</members>
+        <members>SmartPath__c-SmartPath Layout</members>
+        <members>Solution-Solution Layout</members>
+        <members>Task-Task Layout</members>
+        <members>TimeSlot-Time Slot Layout</members>
+        <members>User-User Layout</members>
+        <members>UserAlt-User Profile Layout</members>
+        <members>UserAppMenuItem-Application Layout</members>
+        <members>UserProvAccount-User Provisioning Account Layout</members>
+        <members>UserProvisioningLog-User Provisioning Log Layout</members>
+        <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+        <members>Visit-Visit Layout</members>
+        <members>VisitedParty-Visited Party Layout</members>
+        <members>Visitor-Visitor Layout</members>
+        <members>Waitlist-%5F%5FMISSING LABEL%5F%5F PropertyFile - val Waitlist not found in section StandardLayouts</members>
+        <members>WorkAccess-Access Layout</members>
+        <members>WorkBadge-Badge Layout</members>
+        <members>WorkBadge-Badge Received Layout 192</members>
+        <members>WorkBadgeDefinition-Badge Definition Layout</members>
+        <members>WorkBadgeDefinition-Badge Layout 192</members>
+        <members>WorkOrder-Work Order Layout</members>
+        <members>WorkOrderLineItem-Work Order Line Item Layout</members>
+        <members>WorkPlan-Work Plan Layout</members>
+        <members>WorkPlanTemplate-Work Plan Template Layout</members>
+        <members>WorkPlanTemplateEntry-Work Plan Template Entry Layout</members>
+        <members>WorkStep-Work Step Layout</members>
+        <members>WorkStepTemplate-Work Step Template Layout</members>
+        <members>WorkThanks-Thanks Layout</members>
+        <members>WorkType-%5F%5FMISSING LABEL%5F%5F PropertyFile - val WorkType not found in section StandardLayouts</members>
+        <members>WorkTypeGroup-Work Type Group Layout</members>
+        <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>mostRecentVisit</members>
+        <name>LightningComponentBundle</name>
     </types>
     <types>
         <members>Account.AllAccounts</members>
@@ -862,10 +1225,832 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>cms_document</members>
+        <members>cms_image</members>
+        <members>news</members>
+        <name>ManagedContentType</name>
+    </types>
+    <types>
+        <members>Account.Standard_Account_Match_Rule_v1_0</members>
+        <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
+        <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Address</members>
+        <members>Contact</members>
+        <members>Lead</members>
+        <name>MatchingRules</name>
+    </types>
+    <types>
+        <members>First Response</members>
+        <members>Follow Up</members>
+        <members>Periodic Update</members>
+        <members>Resolve Within</members>
+        <name>MilestoneType</name>
+    </types>
+    <types>
+        <members>NotificationTypeConfig</members>
+        <name>NotificationTypeConfig</name>
+    </types>
+    <types>
+        <members>Default</members>
+        <members>Default_Opportunity</members>
+        <name>PathAssistant</name>
+    </types>
+    <types>
+        <members>Fixed_Ops_Visit_Access</members>
+        <members>GST_Market_Rep</members>
+        <members>Sales_Ops_Visit_Access</members>
+        <members>Sales_User</members>
+        <members>sfdcInternalInt__sfdc_activityplatform</members>
+        <members>sfdcInternalInt__sfdc_nc_constraints_engine_deploy</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>force__SalesWorkspacePSG</members>
+        <members>force__ScaleCenterUsers</members>
+        <members>force__UnifiedCatalogAdminPsl</members>
+        <members>force__UnifiedCatalogAgentPsl</members>
+        <members>force__UnifiedCatalogCommunityUserPsl</members>
+        <name>PermissionSetGroup</name>
+    </types>
+    <types>
+        <members>ActivityEngagementVirtualChannel_ContactChangeEvent</members>
+        <members>ActivityEngagementVirtualChannel_EmailMessageChangeEvent</members>
+        <members>ActivityEngagementVirtualChannel_LeadChangeEvent</members>
+        <members>ActivityEngagementVirtualChannel_ListEmailChangeEvent</members>
+        <members>ActivityEngagementVirtualChannel_ListEmailSentResultChangeEvent</members>
+        <members>ActivityEngagementVirtualChannel_TaskChangeEvent</members>
+        <name>PlatformEventChannelMember</name>
+    </types>
+    <types>
+        <members>%5BAC RUL%5D Director</members>
+        <members>%5BAC RUL%5D District Fixed Ops</members>
+        <members>%5BAC RUL%5D District Sales Ops</members>
+        <members>%5BAC RUL%5D Executive</members>
+        <members>%5BAC RUL%5D Office</members>
+        <members>Admin</members>
+        <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
+        <members>CPQ Integration User</members>
+        <members>Chatter External User</members>
+        <members>Chatter Free User</members>
+        <members>Chatter Moderator User</members>
+        <members>ContractManager</members>
+        <members>End User</members>
+        <members>Executive Sponsor</members>
+        <members>Guest License User</members>
+        <members>Identity User</members>
+        <members>MarketingProfile</members>
+        <members>Minimum Access - API Only Integrations</members>
+        <members>Minimum Access - Salesforce</members>
+        <members>Read Only</members>
+        <members>Sales Insights Integration User</members>
+        <members>Salesforce API Only System Integrations</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>AC_RUL_Office_profilePasswordPolicy1773332291744</members>
+        <members>Director_profilePasswordPolicy1773272503185</members>
+        <members>District_Fixed_Ops_profilePasswordPolicy1773331887300</members>
+        <members>District_Sales_Ops_profilePasswordPolicy1773251147768</members>
+        <members>District_Sales_Ops_profilePasswordPolicy1773331779113</members>
+        <members>End_User_profilePasswordPolicy1565960334764</members>
+        <members>Executive_Sponsor_profilePasswordPolicy1565800039594</members>
+        <members>Executive_profilePasswordPolicy1773251220736</members>
+        <members>PT1_profilePasswordPolicy1487029411628</members>
+        <members>PT2_profilePasswordPolicy1539989544652</members>
+        <name>ProfilePasswordPolicy</name>
+    </types>
+    <types>
+        <members>PT1_profileSessionSetting1487029411398</members>
+        <members>PT2_profileSessionSetting1539989544703</members>
+        <members>null_profileSessionSetting1565800039616</members>
+        <members>null_profileSessionSetting1565960334781</members>
+        <members>null_profileSessionSetting1773251147870</members>
+        <members>null_profileSessionSetting1773251220831</members>
+        <members>null_profileSessionSetting1773272503276</members>
+        <members>null_profileSessionSetting1773331779418</members>
+        <members>null_profileSessionSetting1773331887478</members>
+        <members>null_profileSessionSetting1773332291832</members>
+        <name>ProfileSessionSetting</name>
+    </types>
+    <types>
+        <members>Support_Dealer_Support</members>
+        <members>Support_Digital_Performance</members>
+        <members>Support_Distribution</members>
+        <members>Support_Incentives</members>
+        <members>Support_Marketing</members>
+        <members>Support_TDMC</members>
+        <name>Queue</name>
+    </types>
+    <types>
+        <members>Account.Child_Account</members>
+        <members>Account.Update_Account</members>
+        <members>Campaign.Child_Campaign</members>
+        <members>Case.CloseCaseLightning</members>
+        <members>Case.NewChildCase</members>
+        <members>CollaborationGroup.NewGroupMember</members>
+        <members>CollaborationGroup.NewGroupRecord</members>
+        <members>FeedItem.NewTaskFromFeedItem</members>
+        <members>Follow_Up</members>
+        <members>LogACall</members>
+        <members>NewAccount</members>
+        <members>NewCase</members>
+        <members>NewContact</members>
+        <members>NewEvent</members>
+        <members>NewGroup</members>
+        <members>NewLead</members>
+        <members>NewOpportunity</members>
+        <members>NewTask</members>
+        <members>New_Visit</members>
+        <members>Quote.SendEmail</members>
+        <members>SendEmail</members>
+        <members>Task.Defer</members>
+        <members>Task.Defer_0</members>
+        <members>Task.Defer_1</members>
+        <members>Task.Defer_10</members>
+        <members>Task.Defer_11</members>
+        <members>Task.Defer_2</members>
+        <members>Task.Defer_3</members>
+        <members>Task.Defer_4</members>
+        <members>Task.Defer_5</members>
+        <members>Task.Defer_6</members>
+        <members>Task.Defer_7</members>
+        <members>Task.Defer_8</members>
+        <members>Task.Defer_9</members>
+        <members>Task.EditDescription</members>
+        <members>Task.EditDescription_0</members>
+        <members>Task.EditDescription_1</members>
+        <members>Task.EditDescription_10</members>
+        <members>Task.EditDescription_11</members>
+        <members>Task.EditDescription_2</members>
+        <members>Task.EditDescription_3</members>
+        <members>Task.EditDescription_4</members>
+        <members>Task.EditDescription_5</members>
+        <members>Task.EditDescription_6</members>
+        <members>Task.EditDescription_7</members>
+        <members>Task.EditDescription_8</members>
+        <members>Task.EditDescription_9</members>
+        <members>Task.UpdatePriority</members>
+        <members>Task.UpdatePriority_0</members>
+        <members>Task.UpdatePriority_1</members>
+        <members>Task.UpdatePriority_10</members>
+        <members>Task.UpdatePriority_11</members>
+        <members>Task.UpdatePriority_2</members>
+        <members>Task.UpdatePriority_3</members>
+        <members>Task.UpdatePriority_4</members>
+        <members>Task.UpdatePriority_5</members>
+        <members>Task.UpdatePriority_6</members>
+        <members>Task.UpdatePriority_7</members>
+        <members>Task.UpdatePriority_8</members>
+        <members>Task.UpdatePriority_9</members>
+        <members>Task.UpdateStatus</members>
+        <members>Task.UpdateStatus_0</members>
+        <members>Task.UpdateStatus_1</members>
+        <members>Task.UpdateStatus_10</members>
+        <members>Task.UpdateStatus_11</members>
+        <members>Task.UpdateStatus_2</members>
+        <members>Task.UpdateStatus_3</members>
+        <members>Task.UpdateStatus_4</members>
+        <members>Task.UpdateStatus_5</members>
+        <members>Task.UpdateStatus_6</members>
+        <members>Task.UpdateStatus_7</members>
+        <members>Task.UpdateStatus_8</members>
+        <members>Task.UpdateStatus_9</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
         <members>SmartPath__c.SmartPath_F_I</members>
         <members>SmartPath__c.SmartPath_Sales</members>
         <members>SmartPath__c.SmartPath_Service</members>
         <name>RecordType</name>
+    </types>
+    <types>
+        <members>SelfOrg</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <types>
+        <members>ActivityReports/</members>
+        <members>ActivityReports/Accounts_with_Activities</members>
+        <members>ActivityReports/Opportunities_with_Activities_this_Month</members>
+        <members>ActivityReports/Opptys_Report</members>
+        <members>ActivityReports/Sales_Rep_Activities</members>
+        <members>CRM_180925_Sample_Sales_Dashboards_Reports/</members>
+        <members>CRM_180925_Sample_Sales_Dashboards_Reports/CRM_180925_CallScript_Monthly_Metrics_Report</members>
+        <members>CRM_180925_Sample_Sales_Dashboards_Reports/CRM_180925_Complete_Sales_Candences_amp_Trackers_Report</members>
+        <members>CRM_180925_Sample_Sales_Dashboards_Reports/CRM_180925_Contacts_Engagement_grouped_by_account_Report</members>
+        <members>CRM_180925_Sample_Sales_Dashboards_Reports/CRM_180925_Contacts_with_Sales_Cadence_Trackers_Report</members>
+        <members>CRM_180925_Sample_Sales_Dashboards_Reports/CRM_180925_EmailTemplate_Monthly_Metrics_Report</members>
+        <members>CRM_180925_Sample_Sales_Dashboards_Reports/CRM_180925_Grouped_Users_Monthly_Report</members>
+        <members>CRM_180925_Sample_Sales_Dashboards_Reports/CRM_180925_Lead_Cadence_Tracker_Conversion_Report</members>
+        <members>CRM_180925_Sample_Sales_Dashboards_Reports/CRM_180925_Lead_Daily_Engagement_Report</members>
+        <members>CRM_180925_Sample_Sales_Dashboards_Reports/CRM_180925_Leads_Converted_by_Sales_Rep_Report</members>
+        <members>CRM_180925_Sample_Sales_Dashboards_Reports/CRM_180925_Leads_with_Sales_Cadence_Trackers_Report</members>
+        <members>CRM_180925_Sample_Sales_Dashboards_Reports/CRM_180925_Sales_Cadence_Steps_Monthly_Metrics_Report</members>
+        <members>CRM_180925_Sample_Sales_Dashboards_Reports/CRM_180925_User_Daily_Engagement_Report</members>
+        <members>CRM_180925_Sample_Sales_Reports/</members>
+        <members>CRM_180925_Sample_Sales_Reports/CRM_180925_Cadence_Completion_Report</members>
+        <members>CRM_180925_Sample_Sales_Reports/CRM_180925_Cadence_Engagement_Monthly_Metric_Report</members>
+        <members>CRM_180925_Sample_Sales_Reports/CRM_180925_Cadence_Engagement_Report</members>
+        <members>CRM_180925_Sample_Sales_Reports/CRM_180925_Call_Activity_Report</members>
+        <members>CRM_180925_Sample_Sales_Reports/CRM_180925_Call_Template_Report</members>
+        <members>CRM_180925_Sample_Sales_Reports/CRM_180925_Contact_Daily_Metric_Report</members>
+        <members>CRM_180925_Sample_Sales_Reports/CRM_180925_Contact_Monthly_Metric_Report</members>
+        <members>CRM_180925_Sample_Sales_Reports/CRM_180925_Email_Template_Report</members>
+        <members>CRM_180925_Sample_Sales_Reports/CRM_180925_Lead_Conversion_Report</members>
+        <members>CRM_180925_Sample_Sales_Reports/CRM_180925_Lead_Daily_Metric_Report</members>
+        <members>CRM_180925_Sample_Sales_Reports/CRM_180925_Lead_Monthly_Metric_Report</members>
+        <members>CRM_180925_Sample_Sales_Reports/CRM_180925_User_Daily_Metric_Report</members>
+        <members>CRM_180925_Sample_Sales_Reports/CRM_180925_User_Monthly_Metric_Report</members>
+        <members>DashboardReportsAdoption/</members>
+        <members>DashboardReportsAdoption/UsageActivitiesCompleted</members>
+        <members>GSTReports/</members>
+        <members>GSTReports/Account_Executive_Notes_iDT</members>
+        <members>GSTReports/Accounts_with_Contacts_SrG</members>
+        <members>GSTReports/Accounts_with_Visits_eVr</members>
+        <members>GSTReports/Customer_Retention_Notes_by_Account_f7C</members>
+        <members>GSTReports/Dealership_Processes_Notes_by_Account_zXX</members>
+        <members>GSTReports/Dealership_Staffing_Notes_by_Account_9Uo</members>
+        <members>GSTReports/Dealership_Staffing_Visits_3Au</members>
+        <members>GSTReports/Dept_Profit_Analysis_Notes_by_Account_qtz</members>
+        <members>GSTReports/Fixed_Ops_Visit_Notes_by_Account_aaX</members>
+        <members>GSTReports/Fixed_Ops_Visit_Notes_by_Account_moY</members>
+        <members>GSTReports/How_many_visits_vDc</members>
+        <members>GSTReports/Inventory_Notes_by_Account_SuY</members>
+        <members>GSTReports/Marketing_Review_Notes_by_Account_urD</members>
+        <members>GSTReports/New_Sales_Processes_Notes_by_Account_Yxm</members>
+        <members>GSTReports/New_Visits_Report_mnt</members>
+        <members>GSTReports/Other_Notes_by_Account_Ico</members>
+        <members>GSTReports/Parts_Collision_Notes_by_Account_xcC</members>
+        <members>GSTReports/Profit_Retention_Notes_by_Account_PFR</members>
+        <members>GSTReports/ReceptionMPI_Notes_by_Account_7St</members>
+        <members>GSTReports/Repair_Flow_Notes_by_Account_FOg</members>
+        <members>GSTReports/Sales_Ops_Visit_Notes_by_Account_bXK</members>
+        <members>GSTReports/Sales_Ops_Visit_Notes_by_Account_hub</members>
+        <members>GSTReports/Tasks_by_Account_3Fc</members>
+        <members>GSTReports/Tasks_by_Area_zRh</members>
+        <members>GSTReports/Tasks_by_District_tjh</members>
+        <members>GSTReports/Tasks_jL7</members>
+        <members>GSTReports/Traffic_Generation_Notes_by_Account_xw5</members>
+        <members>GSTReports/Used_Sales_Processes_Notes_by_Account_db1</members>
+        <members>GSTReports/Visits_by_Account_Gge</members>
+        <members>GSTReports/Visits_by_Area_YI3</members>
+        <members>GSTReports/Visits_by_District_Fct</members>
+        <members>GSTReports/Visits_by_Visit_Date_yIC</members>
+        <members>Getting_Started_Business_Sponsor/</members>
+        <members>Getting_Started_Business_Sponsor/ES_Average_Deal_Size</members>
+        <members>Getting_Started_Business_Sponsor/ES_Closed_Lost_Opportunities_FYTD</members>
+        <members>Getting_Started_Business_Sponsor/ES_Closed_Won_By_FY_Month</members>
+        <members>Getting_Started_Business_Sponsor/ES_Closed_Won_By_FY_Quarter</members>
+        <members>Getting_Started_Business_Sponsor/ES_FYTD_Open_Opps_by_Acct</members>
+        <members>Getting_Started_Business_Sponsor/ES_FYTD_Won_Opps_by_Acct</members>
+        <members>Getting_Started_Business_Sponsor/ES_Open_Opportunities</members>
+        <members>Getting_Started_Business_Sponsor/ES_Open_Opportunities_in_the_Pipeline</members>
+        <members>Getting_Started_Business_Sponsor/ES_Total_Win_Ratio</members>
+        <members>Getting_Started_Company_KPI/</members>
+        <members>Getting_Started_Company_KPI/KPI_Average_Days_to_Close</members>
+        <members>Getting_Started_Company_KPI/KPI_Average_Deal_Size</members>
+        <members>Getting_Started_Company_KPI/KPI_Closed_Won_By_FY_Month</members>
+        <members>Getting_Started_Company_KPI/KPI_Closed_Won_By_FY_QT</members>
+        <members>Getting_Started_Company_KPI/KPI_Open_Opportunities_in_the_Pipeline</members>
+        <members>Getting_Started_Company_KPI/KPI_Total_Win_Ratio</members>
+        <members>Getting_Started_Company_KPI/KPI_Won_Plus_70_Probability</members>
+        <members>Getting_Started_Sales_Manager/</members>
+        <members>Getting_Started_Sales_Manager/Closed_Won_This_FY_by_Owner_6qB</members>
+        <members>Getting_Started_Sales_Manager/New_Activities_Leaderboard_9ZT</members>
+        <members>Getting_Started_Sales_Manager/New_Opptys_Leaderboard_p5H</members>
+        <members>Getting_Started_Sales_Manager/SM_Average_Days_to_Close</members>
+        <members>Getting_Started_Sales_Manager/SM_Average_Deal_Size_X58</members>
+        <members>Getting_Started_Sales_Manager/SM_Closed_Won_By_FYMonth_m1S</members>
+        <members>Getting_Started_Sales_Manager/SM_Closed_Won_This_M_by_Type_hUc</members>
+        <members>Getting_Started_Sales_Manager/SM_Closed_Won_This_Q_by_Type_h88</members>
+        <members>Getting_Started_Sales_Manager/SM_Open_Opportunities_in_the_Pipeline_9H9</members>
+        <members>Getting_Started_Sales_Manager/SM_Win_Ratio_Current_FY_JUg</members>
+        <members>Getting_Started_Sales_Representative/</members>
+        <members>Getting_Started_Sales_Representative/My_Top_Accounts_PHw</members>
+        <members>Getting_Started_Sales_Representative/SR_Clean_your_Room</members>
+        <members>Getting_Started_Sales_Representative/SR_Closed_Won_By_FYMonth_MdW</members>
+        <members>Getting_Started_Sales_Representative/SR_Closed_Won_MTD</members>
+        <members>Getting_Started_Sales_Representative/SR_Closed_Won_This_Q_by_Type_dCK</members>
+        <members>Getting_Started_Sales_Representative/SR_Neglected_Accounts</members>
+        <members>Getting_Started_Sales_Representative/SR_Open_Opportunities_in_the_Pipeline</members>
+        <members>Getting_Started_Sales_Representative/SR_Stuck_Opportunities_Report</members>
+        <members>Getting_Started_Sales_Representative/Top_Open_Opportunities_r6f</members>
+        <members>Sales_Marketing_Reports/</members>
+        <members>Sales_Marketing_Reports/Closed_Lost_by_Reason</members>
+        <members>Sales_Marketing_Reports/Closed_Won_80_This_Q_by_Owner</members>
+        <members>Sales_Marketing_Reports/Closed_Won_This_Q_by_Owner</members>
+        <members>Sales_Marketing_Reports/Closed_Won_This_Q_by_Type</members>
+        <members>Sales_Marketing_Reports/Closed_Won_by_Type</members>
+        <members>Sales_Marketing_Reports/Conversion_Rate</members>
+        <members>Sales_Marketing_Reports/Hot_Leads_w_o_Activity_96_Hours</members>
+        <members>Sales_Marketing_Reports/Leads_Converted_All_Time</members>
+        <members>Sales_Marketing_Reports/Leads_Converted_Current_FQ2</members>
+        <members>Sales_Marketing_Reports/Leads_Converted_by_FQ</members>
+        <members>Sales_Marketing_Reports/Leads_Created_Current_FQ</members>
+        <members>Sales_Marketing_Reports/Open_Oppties_This_Q</members>
+        <members>Sales_Marketing_Reports/Open_Oppties_This_Q_No_Acti_Last_96hrs</members>
+        <members>Sales_Marketing_Reports/Pipeline_Report_This_Q</members>
+        <members>Sales_Marketing_Reports/Win_Ratio</members>
+        <members>Sales_and_Marketing_Reports/</members>
+        <members>Sales_and_Marketing_Reports/Activities_by_Salesperson</members>
+        <members>Sales_and_Marketing_Reports/CampaignROIbyCampaignType</members>
+        <members>Sales_and_Marketing_Reports/CampaignsbyROI</members>
+        <members>Sales_and_Marketing_Reports/Closed_Deals_leader_board</members>
+        <members>Sales_and_Marketing_Reports/Closed_opportunity</members>
+        <members>Sales_and_Marketing_Reports/Leads_by_Industry</members>
+        <members>Sales_and_Marketing_Reports/LeadsbySource</members>
+        <members>Sales_and_Marketing_Reports/Marketing_Exec_Amount_per_Camp</members>
+        <members>Sales_and_Marketing_Reports/Marketing_Exec_Conversion_Rate</members>
+        <members>Sales_and_Marketing_Reports/Marketing_Exec_Converted_Amount</members>
+        <members>Sales_and_Marketing_Reports/Marketing_Exec_Converted_and_Won_Amount</members>
+        <members>Sales_and_Marketing_Reports/Marketing_Exec_Converted_by_Month</members>
+        <members>Sales_and_Marketing_Reports/Marketing_Exec_Lead_Trends_by_Status</members>
+        <members>Sales_and_Marketing_Reports/Marketing_Exec_Leads_Converted</members>
+        <members>Sales_and_Marketing_Reports/Marketing_Exec_Leads_by_Campaigns</members>
+        <members>Sales_and_Marketing_Reports/Marketing_Exec_of_Leads</members>
+        <members>Sales_and_Marketing_Reports/OpportunityProductPipeline</members>
+        <members>Sales_and_Marketing_Reports/SP_Current_Month_Open_Pipeline</members>
+        <members>Sales_and_Marketing_Reports/Sales_Exec</members>
+        <members>Sales_and_Marketing_Reports/Sales_Exec_Bookings_Trend</members>
+        <members>Sales_and_Marketing_Reports/Sales_Exec_Closed_Deals_QTD</members>
+        <members>Sales_and_Marketing_Reports/Sales_Exec_Lost_Deals</members>
+        <members>Sales_and_Marketing_Reports/Sales_Exec_Open_Deals</members>
+        <members>Sales_and_Marketing_Reports/Sales_Exec_Open_Pipeline</members>
+        <members>Sales_and_Marketing_Reports/Sales_Exec_Open_Pipeline_next_90_days</members>
+        <members>Sales_and_Marketing_Reports/Sales_Exec_Top_Closed_Deals</members>
+        <members>Sales_and_Marketing_Reports/Sales_Manager_Closed_Deals</members>
+        <members>Sales_and_Marketing_Reports/Sales_Manager_Open_Opportunities</members>
+        <members>Sales_and_Marketing_Reports/Sales_Manager_Open_Pipeline</members>
+        <members>Sales_and_Marketing_Reports/Sales_Manager_Pipeline_Next_90_days</members>
+        <members>Sales_and_Marketing_Reports/Sales_Person_Activities_Completed</members>
+        <members>Sales_and_Marketing_Reports/Sales_Person_Activity</members>
+        <members>Sales_and_Marketing_Reports/Sales_Person_MTD_Sales</members>
+        <members>Sales_and_Marketing_Reports/Sales_Person_Open_Pipeline_by_stage</members>
+        <members>Service_Dashboards_Reports/</members>
+        <members>Service_Dashboards_Reports/Age_of_Cases_Currently_Open_by_Type</members>
+        <members>Service_Dashboards_Reports/Aged_Cases_by_Account</members>
+        <members>Service_Dashboards_Reports/Aged_Cases_by_Agent</members>
+        <members>Service_Dashboards_Reports/Average_Case_Resolution_Time_1</members>
+        <members>Service_Dashboards_Reports/Average_Case_Resolution_Time_MTD</members>
+        <members>Service_Dashboards_Reports/Avg_Case_Resolution_Time_MTD_by_Agen</members>
+        <members>Service_Dashboards_Reports/Case_Resolution_Time_MTD_by_Origin</members>
+        <members>Service_Dashboards_Reports/Cases_Closed_MTD</members>
+        <members>Service_Dashboards_Reports/Cases_Closed_MTD_by_Agent</members>
+        <members>Service_Dashboards_Reports/Cases_Created_MTD</members>
+        <members>Service_Dashboards_Reports/Cases_Currently_Open</members>
+        <members>Service_Dashboards_Reports/Cases_Currently_Open_by_Account</members>
+        <members>Service_Dashboards_Reports/Cases_Currently_Open_by_Agent</members>
+        <members>Service_Dashboards_Reports/Cases_Currently_Open_by_Origin</members>
+        <members>Service_Dashboards_Reports/Cases_Currently_Open_by_Priority</members>
+        <members>Service_Dashboards_Reports/Cases_Currently_Open_by_Type</members>
+        <members>Service_Dashboards_Reports/Cases_by_Origin</members>
+        <members>Service_Dashboards_Reports/Cases_by_Origin_and_Open_Status</members>
+        <members>Service_Dashboards_Reports/Cases_by_Priority</members>
+        <members>Service_Dashboards_Reports/Cases_by_Type_and_Open_Status</members>
+        <members>Service_Dashboards_Reports/High_Priority_Open_Cases_by_Account</members>
+        <members>Service_Dashboards_Reports/Top_10_Cases_by_Age</members>
+        <members>Service_Dashboards_Reports/Trend_of_Case_Resolution_Time</members>
+        <members>Service_Dashboards_Reports/Trend_of_Cases_Closed</members>
+        <members>Service_Dashboards_Reports/Trend_of_Cases_Created</members>
+        <members>unfiled$public/</members>
+        <members>unfiled$public/Opportunity_Amount_by_Stage_Sample</members>
+        <members>unfiled$public/SampleReportActiveUsers</members>
+        <members>unfiled$public/SampleReportCasesStatusbyRep</members>
+        <members>unfiled$public/SampleReportClosedSales</members>
+        <members>unfiled$public/SampleReportCompletedActivities</members>
+        <members>unfiled$public/SampleReportCustomReportsbyUser</members>
+        <members>unfiled$public/SampleReportDocumentLibrary</members>
+        <members>unfiled$public/SampleReportLastModifiedBy</members>
+        <members>unfiled$public/SampleReportLeadsbyLeadSource</members>
+        <members>unfiled$public/SampleReportLoginLeaderboard</members>
+        <members>unfiled$public/SampleReportLoginWallofShame</members>
+        <members>unfiled$public/SampleReportMonthtoDateTrending</members>
+        <members>unfiled$public/SampleReportOpenCasesByPriority</members>
+        <members>unfiled$public/SampleReportOpenDeals</members>
+        <members>unfiled$public/SampleReportPipelineByCloseMonth</members>
+        <members>unfiled$public/SampleReportPipelineHistory</members>
+        <members>unfiled$public/SampleReportSalesLeaderboard</members>
+        <members>unfiled$public/SampleReportSalesPipelinebyStage</members>
+        <members>unfiled$public/SampleReportSolutionsAdded</members>
+        <members>unfiled$public/SampleReportTopAccounts</members>
+        <members>unfiled$public/SampleReportUsersLoggedIn</members>
+        <members>unfiled$public/SampleReportofAccounts</members>
+        <members>unfiled$public/SampleReportofCases</members>
+        <members>unfiled$public/SampleReportofContacts</members>
+        <members>unfiled$public/SampleReportofDocuments</members>
+        <members>unfiled$public/SampleReportofLeads</members>
+        <members>unfiled$public/SampleReportofOpenTasks</members>
+        <members>unfiled$public/SampleReportofOpportunities</members>
+        <members>unfiled$public/SampleReportofReports</members>
+        <members>unfiled$public/SampleReportofSolutions</members>
+        <members>unfiled$public/SampleReportofTasksandActivities</members>
+        <members>unfiled$public/SampleReportsLeadsbyStatus</members>
+        <members>unfiled$public/flow_orchestration_log_ootb_report_two_four_eight</members>
+        <members>unfiled$public/flow_orchestration_run_ootb_report_two_four_eight</members>
+        <members>unfiled$public/flow_orchestration_stage_run_ootb_report_two_four_eight</members>
+        <members>unfiled$public/flow_orchestration_step_run_ootb_report_two_four_eight</members>
+        <members>unfiled$public/flow_orchestration_work_item_ootb_report_two_four_eight</members>
+        <members>unfiled$public/flow_screen_prebuilt_report</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>Accounts_with_Activities</members>
+        <members>Accounts_with_Contacts_with_Daily_Engagements</members>
+        <members>Accounts_with_Visits</members>
+        <members>Cadences_amp_Steps</members>
+        <members>Call_Script_Monthly_Engagement</members>
+        <members>Call_Template</members>
+        <members>Contacts_and_Sales_Cadence_Trackers</members>
+        <members>Contacts_with_Daily_Engagements</members>
+        <members>Contacts_with_Monthly_Engagements</members>
+        <members>Email_Template</members>
+        <members>Email_Template_Monthly_Engagement</members>
+        <members>Forecasting_Items_with_Historical_Trending</members>
+        <members>Leads_With_or_Without_Sales_Cadence_Trackers</members>
+        <members>Leads_and_Sales_Cadence_Trackers</members>
+        <members>Leads_with_Daily_Engagements</members>
+        <members>Leads_with_Monthly_Engagements</members>
+        <members>Opportunities_with_Activities</members>
+        <members>Opportunities_with_Historical_Trending</members>
+        <members>Opptys</members>
+        <members>Sales_Cadences_Steps_with_Monthly_Metrics</members>
+        <members>Sales_Cadences_amp_Trackers</members>
+        <members>Sales_Cadences_and_Trackers_Inner_join</members>
+        <members>User_Activities</members>
+        <members>Users_with_Daily_Metrics</members>
+        <members>Users_with_Monthly_Engagements</members>
+        <members>Visits</members>
+        <members>flow_orchestration_log_ootb_crt_two_four_eight</members>
+        <members>flow_orchestration_run_ootb_crt_two_four_eight</members>
+        <members>flow_orchestration_stage_run_ootb_crt_two_four_eight</members>
+        <members>flow_orchestration_step_run_ootb_crt_two_four_eight</members>
+        <members>flow_orchestration_work_item_ootb_crt_two_four_eight</members>
+        <members>screen_flows_prebuilt_crt</members>
+        <name>ReportType</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>Director_East</members>
+        <members>Director_West</members>
+        <members>District_A</members>
+        <members>District_B</members>
+        <members>District_C</members>
+        <members>District_D</members>
+        <members>District_E</members>
+        <members>District_F</members>
+        <members>District_G</members>
+        <members>District_H</members>
+        <members>District_I</members>
+        <members>District_J</members>
+        <members>District_K</members>
+        <members>Executive</members>
+        <name>Role</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>AccountIntelligence</members>
+        <members>AccountPlan</members>
+        <members>Actions</members>
+        <members>Activities</members>
+        <members>Address</members>
+        <members>AgentforceForDevelopers</members>
+        <members>Ai4m</members>
+        <members>Analytics</members>
+        <members>Apex</members>
+        <members>AppAnalytics</members>
+        <members>AppExperience</members>
+        <members>AssociationEngine</members>
+        <members>Blockchain</members>
+        <members>BranchManagement</members>
+        <members>BusinessHours</members>
+        <members>Campaign</members>
+        <members>Case</members>
+        <members>Chatter</members>
+        <members>ChatterEmailsMD</members>
+        <members>ClaimMgmtFoundationEnabled</members>
+        <members>CodeBuilder</members>
+        <members>Commerce</members>
+        <members>Communities</members>
+        <members>Company</members>
+        <members>ConnectedApp</members>
+        <members>Content</members>
+        <members>Contract</members>
+        <members>ConversationServiceIntegration</members>
+        <members>ConversationalIntelligence</members>
+        <members>Currency</members>
+        <members>CustomAddressField</members>
+        <members>CustomerDataPlatform</members>
+        <members>CustomizablePropensityScoring</members>
+        <members>DataImportManagement</members>
+        <members>Deployment</members>
+        <members>DevHub</members>
+        <members>Discovery</members>
+        <members>DocumentChecklist</members>
+        <members>DynamicForms</members>
+        <members>EAC</members>
+        <members>EinsteinAgent</members>
+        <members>EinsteinDealInsights</members>
+        <members>EinsteinDocumentCapture</members>
+        <members>EmailAdministration</members>
+        <members>EmailIntegration</members>
+        <members>EmailTemplate</members>
+        <members>EmployeeFieldAccess</members>
+        <members>EmployeeUser</members>
+        <members>EncryptionKey</members>
+        <members>EnhancedNotes</members>
+        <members>Entitlement</members>
+        <members>Essentials</members>
+        <members>Event</members>
+        <members>ExperienceBundle</members>
+        <members>ExternalClientApp</members>
+        <members>FileUploadAndDownloadSecurity</members>
+        <members>FilesConnect</members>
+        <members>Flow</members>
+        <members>Forecasting</members>
+        <members>ForecastingObjectList</members>
+        <members>Formula</members>
+        <members>GoogleApps</members>
+        <members>HerokuAppLink</members>
+        <members>HighVelocitySales</members>
+        <members>Ideas</members>
+        <members>IdentityProvider</members>
+        <members>IncidentMgmt</members>
+        <members>Industries</members>
+        <members>IndustriesAutomotive</members>
+        <members>IndustriesContext</members>
+        <members>IndustriesEinsteinFeature</members>
+        <members>IndustriesFieldService</members>
+        <members>IndustriesManufacturing</members>
+        <members>IndustriesUnifiedInventory</members>
+        <members>InsuranceBrokerage</members>
+        <members>InterestTagging</members>
+        <members>InventoryReplenishment</members>
+        <members>InvocableAction</members>
+        <members>KnowledgeGeneration</members>
+        <members>Language</members>
+        <members>LeadConfig</members>
+        <members>LightningExperience</members>
+        <members>Macro</members>
+        <members>MailMerge</members>
+        <members>MapsAndLocation</members>
+        <members>Meetings</members>
+        <members>Mobile</members>
+        <members>MyDomain</members>
+        <members>Name</members>
+        <members>Notifications</members>
+        <members>OauthOidc</members>
+        <members>ObjectLinking</members>
+        <members>OmniChannel</members>
+        <members>OmniChannelPricing</members>
+        <members>OmniStudio</members>
+        <members>OnlineSales</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>Org</members>
+        <members>Pardot</members>
+        <members>PardotEinstein</members>
+        <members>PartyDataModel</members>
+        <members>PathAssistant</members>
+        <members>PaymentsManagementEnabled</members>
+        <members>Picklist</members>
+        <members>PlatformEncryption</members>
+        <members>PlatformEvent</members>
+        <members>Portals</members>
+        <members>PredictionBuilder</members>
+        <members>Privacy</members>
+        <members>Product</members>
+        <members>ProductCatalogManagement</members>
+        <members>ProductDiscovery</members>
+        <members>QuickText</members>
+        <members>Quote</members>
+        <members>RealTimeEvent</members>
+        <members>RecommendationBuilder</members>
+        <members>RecordPage</members>
+        <members>ReleaseMgmt</members>
+        <members>RetailExecution</members>
+        <members>Sandbox</members>
+        <members>SceGlobalModelOptOut</members>
+        <members>Schema</members>
+        <members>Search</members>
+        <members>Security</members>
+        <members>ServiceAIRecommendations</members>
+        <members>ServiceCloudVoice</members>
+        <members>ServiceSetupAssistant</members>
+        <members>Sharing</members>
+        <members>Site</members>
+        <members>SocialCustomerService</members>
+        <members>SourceTracking</members>
+        <members>SubscriptionManagement</members>
+        <members>Survey</members>
+        <members>SystemNotification</members>
+        <members>Territory2</members>
+        <members>Trailhead</members>
+        <members>TrialOrg</members>
+        <members>UserEngagement</members>
+        <members>UserInterface</members>
+        <members>UserManagement</members>
+        <members>Voice</members>
+        <members>WarrantyLifecycleMgmt</members>
+        <members>WebToX</members>
+        <members>WorkDotCom</members>
+        <name>Settings</name>
+    </types>
+    <types>
+        <members>Account.District_A_Accounts</members>
+        <members>Account.District_B_Accounts</members>
+        <members>Account.District_C_Accounts</members>
+        <members>Account.District_D_Accounts</members>
+        <members>Account.District_E_Accounts</members>
+        <members>Account.District_F_Accounts</members>
+        <members>Account.District_G_Accounts</members>
+        <members>Account.District_H_Accounts</members>
+        <members>Account.District_I_Accounts</members>
+        <members>Account.District_J</members>
+        <members>Account.District_K_Accounts</members>
+        <name>SharingCriteriaRule</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>ActionPlan</members>
+        <members>ActionPlanTemplate</members>
+        <members>ActivityRecurrence2</members>
+        <members>ActivityRecurrence2Exception</members>
+        <members>AdvAccountForecastFact</members>
+        <members>AdvAcctForecastFactAdj</members>
+        <members>AdvAcctForecastSetPartner</members>
+        <members>AdvAcctForecastSetUse</members>
+        <members>AiJobRun</members>
+        <members>AnalyticsUserAttrFuncTkn</members>
+        <members>AppointmentInvitation</members>
+        <members>ApprovalSubmission</members>
+        <members>AssessmentIndicatorDefinition</members>
+        <members>AssessmentTask</members>
+        <members>AssessmentTaskDefinition</members>
+        <members>Asset</members>
+        <members>AssistantInteraction</members>
+        <members>AssistantProgress</members>
+        <members>AssistantRecommendation</members>
+        <members>AsyncOperationTracker</members>
+        <members>AttrPicklistExcludedValue</members>
+        <members>AttributeCategory</members>
+        <members>AttributeCategoryAttribute</members>
+        <members>AttributeDefinition</members>
+        <members>AttributePicklist</members>
+        <members>AuditTrailFileExport</members>
+        <members>BatchJob</members>
+        <members>BusinessMilestone</members>
+        <members>CRM__c</members>
+        <members>CalculationMatrix</members>
+        <members>CalculationProcedure</members>
+        <members>CalendarModel</members>
+        <members>CalendarView</members>
+        <members>Campaign</members>
+        <members>Case</members>
+        <members>ChangeRequest</members>
+        <members>CodeSet</members>
+        <members>CodeSetBundle</members>
+        <members>ComponentResponseCache</members>
+        <members>Contact</members>
+        <members>ContactRequest</members>
+        <members>ConvCoachingRecommendation</members>
+        <members>CostBook</members>
+        <members>DecisionTblFileImportData</members>
+        <members>DevopsActivityLog</members>
+        <members>DevopsEnvironment</members>
+        <members>DevopsRequestInfo</members>
+        <members>DocumentChecklistItem</members>
+        <members>DocumentDecisionRequirement</members>
+        <members>EngagementChannelType</members>
+        <members>EnrollmentEligibilityCriteria</members>
+        <members>ExchangeUserMapping</members>
+        <members>ExpressionSet</members>
+        <members>ExternalEventMapping</members>
+        <members>FlowInterview</members>
+        <members>FlowInterviewLog</members>
+        <members>FlowOrchestrationInstance</members>
+        <members>FlowOrchestrationStageInstance</members>
+        <members>FlowOrchestrationStepInstance</members>
+        <members>FlowOrchestrationWorkItem</members>
+        <members>FlowRecord</members>
+        <members>FlowTestResult</members>
+        <members>GenericVisitTask</members>
+        <members>GenericVisitTaskContext</members>
+        <members>Image</members>
+        <members>In_App_Checklist_Settings__c</members>
+        <members>Incident</members>
+        <members>IntegrationProviderDcsnRqmt</members>
+        <members>IntegrationProviderExecution</members>
+        <members>Lead</members>
+        <members>ListEmail</members>
+        <members>Location</members>
+        <members>LocationTrustMeasure</members>
+        <members>Macro</members>
+        <members>MacroUsage</members>
+        <members>ManufacturingProgram</members>
+        <members>MfgProgramCpntFrcstFact</members>
+        <members>MfgProgramForecastFact</members>
+        <members>MfgProgramVariantFrcstFact</members>
+        <members>NotifDeliveryUserPref</members>
+        <members>ObjectDataImport</members>
+        <members>OmniComponentErrorLog</members>
+        <members>OmniDataPack</members>
+        <members>OmniDataTransform</members>
+        <members>OmniESignatureTemplate</members>
+        <members>OmniGlobalAutoNumber</members>
+        <members>OmniProcess</members>
+        <members>OmniProcessTransientData</members>
+        <members>OmniScriptSavedSession</members>
+        <members>OmniUiCard</members>
+        <members>OperatingHours</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>Problem</members>
+        <members>ProcessException</members>
+        <members>Product2</members>
+        <members>ProductAttributeDefinition</members>
+        <members>ProductAvailabilityProjection</members>
+        <members>ProductCatalog</members>
+        <members>ProductCategoryDisqual</members>
+        <members>ProductCategoryQualification</members>
+        <members>ProductClassification</members>
+        <members>ProductClassificationAttr</members>
+        <members>ProductComponentGroup</members>
+        <members>ProductComponentGrpOverride</members>
+        <members>ProductConfigurationFlow</members>
+        <members>ProductDisqualification</members>
+        <members>ProductFulfillmentLocation</members>
+        <members>ProductQualification</members>
+        <members>ProductRelComponentOverride</members>
+        <members>ProductRelatedMaterial</members>
+        <members>ProductRequest</members>
+        <members>ProfileSkill</members>
+        <members>PromptAction</members>
+        <members>PromptError</members>
+        <members>QuickText</members>
+        <members>QuickTextUsage</members>
+        <members>ReceivedDocument</members>
+        <members>RecordActnSelItemExtrc</members>
+        <members>RecordAlert</members>
+        <members>RecordMergeHistory</members>
+        <members>RecurrenceSchedule</members>
+        <members>RelationshipGraphView</members>
+        <members>ReportResultBlob</members>
+        <members>ReturnOrder</members>
+        <members>RevenueTransactionErrorLog</members>
+        <members>Scorecard</members>
+        <members>ServiceAppointment</members>
+        <members>ServiceAppointmentAttendee</members>
+        <members>ServiceContract</members>
+        <members>ServiceResource</members>
+        <members>ServiceTerritory</members>
+        <members>SetupDataSynchronization</members>
+        <members>SharingRecordCollection</members>
+        <members>Shift</members>
+        <members>Shipment</members>
+        <members>SiqUserBlacklist</members>
+        <members>SocialPersonaFieldBackup</members>
+        <members>SocialPost</members>
+        <members>StagedInviteeEmail</members>
+        <members>StreamActivityAccess</members>
+        <members>StreamingChannel</members>
+        <members>SupplierProduct</members>
+        <members>SvcProcProdCatgProdExtrc</members>
+        <members>TableauHostMapping</members>
+        <members>TodayGoal</members>
+        <members>UnitOfMeasure</members>
+        <members>UnstructuredStorageSpace</members>
+        <members>User</members>
+        <members>UserAppMenuCustomization</members>
+        <members>UserCapabilityPreference</members>
+        <members>UserDefinedLabel</members>
+        <members>UserDefinedLabelAssignment</members>
+        <members>UserDevopsPreference</members>
+        <members>UserEmailPreferredPerson</members>
+        <members>UserExternalCredential</members>
+        <members>UserLocalWebServerIdentity</members>
+        <members>UserPrioritizedRecord</members>
+        <members>UserProvisioningRequest</members>
+        <members>VideoCall</members>
+        <members>Visit</members>
+        <members>VoiceCall</members>
+        <members>Waitlist</members>
+        <members>WorkAccess</members>
+        <members>WorkBadgeDefinition</members>
+        <members>WorkOrder</members>
+        <members>WorkPlan</members>
+        <members>WorkPlanTemplate</members>
+        <members>WorkStepTemplate</members>
+        <members>WorkThanks</members>
+        <members>WorkType</members>
+        <members>WorkTypeGroup</members>
+        <members>WorkflowSLAAction</members>
+        <name>SharingRules</name>
     </types>
     <types>
         <members>AccountContactMultiRoles</members>
@@ -931,6 +2116,76 @@
         <name>StandardValueSet</name>
     </types>
     <types>
+        <members>VisitFlexiPageLayout</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>AdvAccountForecastFact</members>
+        <members>AdvAcctForecastFactAdj</members>
+        <members>AdvAcctForecastSetPartner</members>
+        <members>AdvAcctForecastSetUse</members>
+        <members>Asset</members>
+        <members>AssetAccountParticipant</members>
+        <members>AssetContactParticipant</members>
+        <members>CRM__c</members>
+        <members>Campaign</members>
+        <members>Case</members>
+        <members>CaseParticipant</members>
+        <members>ChangeRequest</members>
+        <members>CodeSetRelationship</members>
+        <members>Contact</members>
+        <members>ContentDocument</members>
+        <members>Contract</members>
+        <members>Event</members>
+        <members>Incident</members>
+        <members>Lead</members>
+        <members>ManufacturingProgram</members>
+        <members>MfgPgmCpntFrcstFactOpptySchd</members>
+        <members>MfgProgramCpntFrcstFact</members>
+        <members>MfgProgramForecastFact</members>
+        <members>MfgProgramVariantFrcstFact</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>Problem</members>
+        <members>ProductFaultCode</members>
+        <members>ProductLaborCode</members>
+        <members>ProductRelatedMaterial</members>
+        <members>ProductRequest</members>
+        <members>ProductRequestLineItem</members>
+        <members>ResourceAbsence</members>
+        <members>ResourcePreference</members>
+        <members>ReturnOrder</members>
+        <members>ReturnOrderLineItem</members>
+        <members>ServiceAppointment</members>
+        <members>ServiceResource</members>
+        <members>ServiceResourceSkill</members>
+        <members>ServiceTerritory</members>
+        <members>ServiceTerritoryMember</members>
+        <members>Shift</members>
+        <members>Shipment</members>
+        <members>SmartPath__c</members>
+        <members>Solution</members>
+        <members>Task</members>
+        <members>WorkOrder</members>
+        <members>WorkOrderLineItem</members>
+        <members>WorkPlan</members>
+        <members>WorkPlanTemplate</members>
+        <members>WorkPlanTemplateEntry</members>
+        <members>WorkStep</members>
+        <members>WorkStepTemplate</members>
+        <name>TopicsForObjects</name>
+    </types>
+    <types>
+        <members>Account_Record_Page_Three_Column</members>
+        <members>Contact_Record_Page_Three_Column</members>
+        <members>Lead_Record_Page_Three_Column</members>
+        <members>Opportunity_Record_Page_Three_Column</members>
+        <members>Visit_Desktop_Page</members>
+        <members>Visit_Mobile_Page</members>
+        <name>UiViewDefinition</name>
+    </types>
+    <types>
         <members>Account.GoogleMaps</members>
         <members>Account.GoogleNews</members>
         <members>Account.GoogleSearch</members>
@@ -942,6 +2197,29 @@
         <members>Lead.GoogleNews</members>
         <members>Lead.GoogleSearch</members>
         <name>WebLink</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>Case.SendSlaViolationEmailAlert</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <members>Case.ChangeStatusToEscalated</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>CAN_Fixed_Ops_Visit_Screen</members>
+        <members>CAN_Sales_Op_Visit_Screen</members>
+        <members>Screen_Create_Task_from_Visit</members>
+        <members>Task_Before_Create</members>
+        <members>Visit_After_Create_Update</members>
+        <members>Visit_Before_Create</members>
+        <members>Visited_Party_After_Create_Update</members>
+        <members>Visited_Party_Before_Create</members>
+        <name>WorkflowFlowAutomation</name>
     </types>
     <version>64.0</version>
 </Package>
